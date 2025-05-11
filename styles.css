@@ -1,0 +1,47 @@
+/* Global app styling for FlashMaid - Black/White/Gray Theme */
+
+body {
+    background-color: #ffffff;
+    font-family: 'Segoe UI', sans-serif;
+    color: #212529;
+}
+
+h1, h2, h3 {
+    color: #2c2c2c; /* Dark gray for headers */
+}
+
+.stButton>button {
+    background-color: #333333;
+    color: white;
+    border: none;
+    padding: 0.5rem 1.2rem;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.stButton>button:hover {
+    background-color: #000000;
+}
+
+.stTextInput>div>input,
+.stSelectbox>div>div>div,
+.stTextArea>div>textarea {
+    border: 1px solid #666666;
+    border-radius: 6px;
+    background-color: #f9f9f9;
+    color: #212529;
+}
+
+.stSidebar {
+    background-color: #f2f2f2;
+}
+
+.stSidebar h1,
+.stSidebar h2,
+.stSidebar h3 {
+    color: #333333;
+}
+
+.stSidebar .stMarkdown {
+    color: #212529;
+}
